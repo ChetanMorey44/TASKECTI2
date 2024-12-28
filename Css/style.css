@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+.p1{
+    font-size: 30px;
+    font-weight: 700;
+}
+.p{
+    font-size: 14px;
+}
+.two{
+    width: 40%;
+    display: none;
+    justify-content:space-between ;
+    margin-top: 30px;
+}
+.two2{
+    text-align: center;
+    width: 60%;
+  }
+  .ii{
+    text-align: end;
+  }
+  .three{
+    display: flex;
+  }
+  .a{
+    color: white;
+    font-weight: 700;
+  }
+  .liii{
+    margin-top: 10px;
+  }
+  .ii{
+    font-size: 40px;
+    color: white;
+    margin-top: 10px;
+  }
+  .one{
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: white;
+  }
+
+  .bg{
+    background:linear-gradient(rgba(0,0,0,0.5) , rgba(0,0,0,0.5)) ,url(../Images/img2-1-740x460.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+.center{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.img1{
+    width: 293px;
+}
+.main1{
+    text-align: center;
+    margin-top: 30px;
+}
+.centers{
+    text-align: center;
+}
+.text{
+    color: red;
+}
+.one1{
+   padding: 20px;
+}
+.text1{
+    color: red;
+    margin-top: 20px;
+
+}
+.text2{
+    font-size: 25px;
+    padding: 10px;
+}
+.m{
+    padding: 10px;
+}
+.bt{
+    margin-top: 10px;
+    color: red;
+}
+.ss{
+    color: red;
+    font-weight: 700;
+}
+.bg{
+    background:linear-gradient(rgba(0,0,0,0.5) , rgba(0,0,0,0.5)) ,url(../Images/img2-1-740x460.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+.bg2{
+    background:linear-gradient(rgba(0,0,0,0.5) , rgba(0,0,0,0.5)) ,url(../Images/bg_08.jpg);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    margin-top: 10px;
+}
+.text6{
+    color: white;
+    font-size: 52px;
+    padding: 20px;
+}
+.text5{
+    font-size: 14px;
+    margin-top: 10px;
+    color: rgb(199, 192, 192);
+}   
+@media(min-width:998px){
+    .text6{
+        color: white;
+        font-size: 80px;
+        padding: 20px;
+    }
+    .p1{
+        font-size: 70px;
+        font-weight: 700;
+    }
+    .p{
+        font-size: 20px;
+    }
+    .one1{
+        width: 33%;
+        padding: 20px;
+    }
+    .main1{
+        display: flex;
+        text-align: center;
+        margin-top: 30px;
+    }
+    .img1{
+        width: 450px;
+    }
+    .text1{
+        color: red;
+        margin-top: 30px;
+        font-size: 24px;
+    
+    }
+    .text2{
+        font-size: 50px;
+        padding: 30px;
+    }
+    .text3{
+        font-size: 50px;
+    }
+    .text5{
+        font-size: 20px;
+        margin-top: 10px;
+        color: rgb(199, 192, 192);
+   }
+   text6{
+    color: white;
+    font-size: 80px;
+    padding: 20px;
+}
+}
